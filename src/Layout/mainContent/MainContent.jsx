@@ -1,3 +1,4 @@
+import Budget from '../../components/Budget/Budget'
 import Card from '../../components/Card/Card'
 import Report from '../../components/Report/Report'
 import Transaction from '../../components/Transaction/Transaction'
@@ -10,6 +11,7 @@ export default function MainContent() {
         <Card/>
         <Transaction/>
         <Report/>
+        <Budget/>
       </div>
     </div>
   )
